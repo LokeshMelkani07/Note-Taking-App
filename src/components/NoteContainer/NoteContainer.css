@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Montserrat&family=Poppins&family=Roboto&family=Spline+Sans+Mono&display=swap');
+
+.note-container{
+    height: 100%;
+    width: 100%;
+}
+
+.note-container_heading{
+    font-family: 'Spline Sans Mono', monospace;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    margin: 10px auto;
+    margin-bottom: 10px;
+}
+
+.note-container_notes{
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.note-container_headings{
+    font-family: 'Spline Sans Mono', monospace;
+    width: 100%;
+    text-align: center;
+}
